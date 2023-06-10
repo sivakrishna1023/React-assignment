@@ -1,10 +1,9 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +38,19 @@
 
 .read-the-docs {
   color: #888;
+} */
+/* my code */
+.container1 {
+  display: flex;
+  height: 100vh; /* Set the height of the container to the full viewport height */
+}
+
+.left-half {
+  flex: 1; /* Occupy 50% of the container width */
+  background-color: lightgray; /* Set the background color for the left half */
+}
+
+.right-half {
+  flex: 1; /* Occupy 50% of the container width */
+  background-color: white; /* Set the background color for the right half */
 }
